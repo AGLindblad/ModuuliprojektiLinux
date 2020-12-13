@@ -1,0 +1,23 @@
+#!/bin/bash
+
+clear
+
+echo "Käytössä oleva ydin:"
+uname -v
+echo
+echo "Muistin käyttöaste:"
+free -h
+echo
+echo "Tallennustila:"
+df -h
+echo
+echo "Käyttöaika"
+uptime
+echo
+echo "Paikallinen verkko-osoite"
+hostname -I
+echo
+echo: "Laitteen yleistiedot"
+sudo lshw -short
+echo
+echo "Siinä kaikki, hyvää päiviänjatkoa :)"
