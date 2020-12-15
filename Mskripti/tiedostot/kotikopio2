@@ -1,3 +1,0 @@
-#!/bin/sh
-
-rsync -a /home/anders/ /media/anders/Transcend/ >/dev/null 2>&1
