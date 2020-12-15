@@ -31,6 +31,7 @@ apache2running:
     - watch:
       - file: /etc/apache2/mods-enabled/userdir.conf
       - file: /etc/apache2/mods-enabled/userdir.load
+      - file: /etc/apache2/mods-enabled/php7.2.conf
 
 mariadb-server:
   pkg.installed

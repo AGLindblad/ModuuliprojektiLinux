@@ -7,6 +7,7 @@ ohjelmat:
       - tree
       - lynx
       - git
+      - sysbench
 
 sysstat:
   pkg.installed
